@@ -1,6 +1,6 @@
 {
   "name": "bookmarkify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "view-component-bookmarklet.js",
   "bin": "./index.js",
@@ -8,5 +8,8 @@
     "test": "echo 'lazy! no tests' && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "minify": "^2.0.13"
+  }
 }
