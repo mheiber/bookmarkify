@@ -9,7 +9,8 @@ minify(file, (err, rawJS) => {
     if (err) {
         throw err
     }
-    const href = `javascript:${escape(rawJS)}`
+    const wrappedJS = `!(function(){${rawJS}})()`
+    const href = `javascript:${escape(wrappedJS)}`
     const html = `<a href="${href}">${label}</a>`
     console.log(html)
 })
