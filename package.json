@@ -1,0 +1,12 @@
+{
+  "name": "bookmarkify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "view-component-bookmarklet.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo 'lazy! no tests' && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
