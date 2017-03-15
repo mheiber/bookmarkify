@@ -11,7 +11,7 @@ npm install -g bookmarkify
 ## Command Line Usage
 
 ```sh
-bookmarkify source.js label > bookmarklet.js
+bookmarkify source.js label > bookmarklet.html
 ```
 
 ## API
