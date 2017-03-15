@@ -8,9 +8,16 @@ Turn JS into a HTML for a bookmarklet
 npm install -g bookmarkify
 ```
 
-## Usage
+## Command Line Usage
 
 ```sh
 bookmarkify source.js label > bookmarklet.js
+```
+
+## API
+
+```js
+const bookmarkify = require('bookmarkify')
+const html = bookmarkify(file, label)
 ```
 
